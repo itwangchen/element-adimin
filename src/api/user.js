@@ -22,9 +22,4 @@ export function logout() {
     method: 'post'
   })
 }
-export function getBannerDetials() {
-  return request({
-    url: '/getBannerDetials',
-    method: 'post'
-  })
-}
+

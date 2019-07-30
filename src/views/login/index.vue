@@ -183,12 +183,6 @@ export default {
       })
     },
     handlebanner() {
-      this.$store
-        .dispatch('user/login', { position: 1 })
-        .then(res => {
-          console.log(res)
-        })
-        .catch(() => {})
     },
     handleLogin() {
       this.$refs.loginForm.validate(valid => {
